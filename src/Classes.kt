@@ -46,7 +46,9 @@ class Car(make: String, model: String, color: String) : Vehicle(make, model) {
 }
 
 class Truck(make: String, model: String, val towingCapacity: Int) : Vehicle(make, model) {
-
+    fun tow() {
+        println("Your car is in trouble!!")
+    }
 }
 
 
